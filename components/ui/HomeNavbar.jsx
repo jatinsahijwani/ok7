@@ -34,7 +34,7 @@ export default function HomeNavbar() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/career">
             Career
           </Link>
         </NavbarItem>
@@ -52,7 +52,7 @@ export default function HomeNavbar() {
       <NavbarContent justify="end">
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">
-            Get Certificate
+            Apply Now!
           </Button>
         </NavbarItem>
       </NavbarContent>
