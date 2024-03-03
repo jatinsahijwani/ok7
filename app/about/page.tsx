@@ -49,9 +49,9 @@ const content = [
 
 export default function StickyScrollRevealDemo() {
   return (
-    <div className="absolute w-[100vw] h-[100vh] top-0 left-0 bg-black">
-    <div className="p-5 mt-16">
-      <StickyScroll content={content} />
+    <div className=" w-[100vw] h-[100vh] bg-black">
+    <div className="p-5">
+      <StickyScroll contentClassName="mt-16" content={content} />
     </div>
     </div>
   );

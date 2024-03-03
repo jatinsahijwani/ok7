@@ -35,7 +35,7 @@ export default function HomeNavbar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="/career">
-            Career
+            Careers
           </Link>
         </NavbarItem>
         <NavbarItem>
