@@ -1,0 +1,82 @@
+.form-container {
+    margin-top: 3rem;
+    background-color: #000;
+    border-radius: 8px;
+    border: 0.5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+
+  .form-container label {
+    display: block;
+    color: white;
+    margin-bottom: 4px;
+  }
+
+  .form-container input,
+  .form-container textarea{
+    width: 100%;
+    background-color: #000;
+    color : white;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-container button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .form-container button:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    min-height: 20px;
+    max-width: 250px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    max-width: 78px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
